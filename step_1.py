@@ -1,7 +1,4 @@
-a = int(input())
-b = int(input())
-c = int(input())
+a, b, c = int(input().split(';'))
 sub = a - b - c
-sub = sub.strip(';')
 
 print(sub)
