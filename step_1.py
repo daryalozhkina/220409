@@ -1,2 +1,7 @@
-a, b, c = map(int, input().split(';'))
-print(a-b-c)
+a = int(input())
+b = int(input())
+c = int(input())
+sub = a - b - c
+sub = sub.strip(';')
+
+print(sub)
